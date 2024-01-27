@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    
+    <title>Red Dead Redemption 2 Rockstar Games</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">
+                <img src="./img/logo.svg" alt="">
+            </h1>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-jogo" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Visão Geral
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#requisitos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Requisitos</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#informacoes" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Mais informações
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Compre o seu
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-jogo" class="bg-black">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="p-2">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="3000">
+                            <img class="maxW" src="./img/slides/slide1.jpg" alt="Foto do espaço interno">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img class="maxW" src="./img/slides/slide2.webp" alt="Duas taças de vinho">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img class="maxW" src="./img/slides/slide3.jpg" alt="Mesa com comida">
+                        </div>
+                    </div>
+                </div>
+                <button type="button" data-bs-target="#carousel" class="carousel-control-prev" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button type="button" data-bs-target="#carousel" class="carousel-control-next" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" class="active" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./img/jogo.webp" class="d-block w-100 rounded" alt="Foto do espaço interno">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h4 class="text-white text-center">Estados Unidos, <strong>1899</strong>. O fim da era do velho oeste começou. Depois de tudo dar errado durante um roubo em uma cidade do oeste chamada Blackwater, Arthur Morgan e a gangue Van der Linde são forçados a fugir. Com agentes federais e os melhores caçadores de recompensas no seu encalço, a gangue precisa roubar, assaltar e lutar para sobreviver no impiedoso coração dos Estados Unidos. Conforme divisões internas profundas ameaçam despedaçar a gangue, Arthur deve fazer uma escolha entre os seus próprios ideais e a lealdade à gangue que o criou.</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="requisitos" class="pt-5 pb-5 bg-black">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center text-white">Requisitos</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <img class="d-block w-100 rounded mb-2" src="./img/graficos/RedDeadLow.jpg" alt="">
+                        <h3 class="section-title text-colored fs-4 text-white text-center">Minimo</h3>
+                        <ul class="text-white">
+                            <li>
+                                Processor: Intel® Core™ i5-2500K / AMD FX-6300
+                            </li>
+                            <li>
+                                Graphics Card: Nvidia GeForce GTX 770 2GB / AMD Radeon R9 280 3GB
+                            </li>
+                            <li>
+                                RAM: 8GB
+                            </li>
+                            <li>
+                                Storage Space: 150GB
+                            </li>
+                            <li>
+                                OS: Windows 7 (version 6.1.7601)
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="d-block w-100 rounded mb-2" src="./img/graficos/RedDeadUltra.jpg" alt="">
+                        <h3 class="section-title text-colored fs-4 text-white text-center">Recomendado</h3>
+                        <ul class="text-white">
+                            <li>
+                                Processor: Intel® Core™ i7-4770K / AMD Ryzen 5 1500X
+                            </li>
+                            <li>
+                                Graphics Card: Nvidia GeForce GTX 1060 6GB / AMD Radeon RX 480 4GB
+                            </li>
+                            <li>
+                                RAM: 12GB
+                            </li>
+                            <li>
+                                Storage Space: 150GB
+                            </li>
+                            <li>
+                                OS: Windows 10 (version 1803)
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="informacoes" class="pt-5 pb-5 bg-black">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5 text-white">Mais <span class="text-colored">Informações</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#impressoes" class="fw-bold text-start nav-link text-colored active">Impressões</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#red-dead-online" class="fw-bold text-start nav-link text-colored">Red Dead Online</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#armas" class="fw-bold text-start nav-link text-colored">Armas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bando" class="fw-bold text-start nav-link text-colored">A gangue Van der Linde</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="impressoes">
+                                <div class="row">
+                                    <div class="col-12 md-5">
+                                        <img class="d-block w-100" src="./img/detalhes/impressoes.jpg" alt="">
+                                        <h1 class="fw-bold mt-2 text-white text-center">Impressões de Red Dead Redemption 2</h1>
+                                        <p class="text-white">Conforme jogadores ávidos ao redor do mundo adquirem suas cópias de <strong>Red Dead Redemption 2</strong>, veja a seguir uma seleção das impressões de alguns veículos de imprensa. <br><br>
+
+                                            "This is a story - a collection of stories, really - about the decline of a way of life, as a small gang of outlaws tries ever harder to outrun the inexorable advance of American modernity, as well as the enemies and lawmen they have antagonised along the way...There can be no doubt that this is a landmark game. It is a new high water-mark for lifelike video game worlds..." - 5/5 <strong><a href="https://www.theguardian.com/games/2018/oct/25/red-dead-redemption-2-review-western-playstation-xbox-rockstar" class="nav-link">The Guardian</a></strong><br>
+                                            
+                                            "It’s a gorgeous depiction of an ugly period that’s patient, polished, and a huge amount of fun to play, and it’s combined with Rockstar’s best storytelling to date. Even after finishing the lengthy story I can’t wait to go back and play more. This is a game of rare quality; a meticulously polished open world ode to the outlaw era. Looking for one of this generation’s very best single-player action experiences? Here’s your huckleberry." - 10/10 <strong><a href="https://www.ign.com/articles/2018/10/25/red-dead-redemption-2-review" class="nav-link">IGN</a></strong>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content">
+                            <div class="tab-pane" id="red-dead-online">
+                                <div class="row">
+                                    <div class="col-12 md-5">
+                                        <video class="d-block w-100" src="./img/detalhes/online.mp4" autoplay loop></video>
+                                        <h1 class="fw-bold mt-2 text-white text-center">Entre no mundo vibrante e em constante desenvolvimento de Red Dead Online para conhecer a vida na fronteira dos Estados Unidos.</h1>
+                                        <p class="text-white text-center">Trilhe seu próprio caminho enquanto enfrenta autoridades, gangues fora da lei e animais selvagens ferozes para construir uma vida na fronteira dos Estados Unidos. Monte um acampamento, cavalgue com ou sem um Bando e explore tudo, das montanhas nevadas no norte aos pântanos do sul, de postos avançados remotos a fazendas agitadas e cidades vibrantes. Vá atrás de recompensas, cace, pesque e negocie, procure tesouros exóticos, toque sua própria destilaria clandestina de Moonshine ou vire Naturalista para aprender os segredos do reino animal e muito mais num mundo rico em detalhes.
+
+                                            Junte-se a milhões de jogadores no oeste dos Estados Unidos para mergulhar num mundo agora repleto de recursos, conteúdos e melhorias.</p>
+                                            <img src="./img/detalhes/online.png" alt="" class="d-block w-100">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content">
+                            <div class="tab-pane" id="armas">
+                                <div class="row">
+                                    <div class="col-12 md-5">
+                                        <h1 class="fw-bold mt-2 text-center text-white">Armas</h1>
+                                        <p class="text-center text-white">Detalhe, profundidade e escolha definem todos os aspectos de Red Dead Redemption 2, e as armas não são exceção.Há mais de 50 armas únicas disponíveis, uma enorme variedade de opções para personalização e uma ampla seleção de diferentes tipos de munição para melhorar a precisão, o alcance ou os danos. Quanto mais a arma for usada, melhor será o seu desempenho, mas ela também começará a se deteriorar com o tempo, caso não seja cuidada, por isso uma arma de fogo precisa estar sempre lubrificada e limpa.</p>
+                                        <img class="d-block w-100" src="./img/detalhes/armas1.jpg" alt="">
+                                        <img class="d-block w-100" src="./img/detalhes/armas2.jpg" alt="">
+                                        <h1 class="fw-bold mt-2 text-center text-white">Escolha e personalização de armas
+                                        </h1>
+                                        <p class="text-center text-white">Com uma infinidade de opções de personalização, como melhoramentos visuais com novos metais, madeiras, vernizes e gravações, além de aprimoramentos de desempenho como novos canos, cabos, miras e lunetas, é possível criar uma arma inteiramente única, com a aparência e o manuseio do seu gosto. O desempenho de cada arma varia em termos de dano, alcance, cadência, precisão e velocidade de recarga, por isso é importante escolher sabiamente, dependendo da situação.A cadência alta de um Revólver de Ação Dupla é ótima para atirar montado e em movimento. Caso esteja carregando algo em uma das mãos, como um lampião ou um animal pequeno, considere usar uma Escopeta de Cano Serrado, que tem um impacto muito maior a curta distância do que outras armas de uma mão. O Rifle Antipragas é perfeito para caças pequenas, pois é muito menos provável que ele danifique a qualidade da pele e da carne do que uma arma de fogo com um tamanho maior de cartucho.Ao ser confrontado por apenas um ou dois inimigos, talvez você queira usar um Rifle Springfield que tenha uma cadência mais lenta, mas que cause dano muito maior. Para o alcance, algum tipo de rifle de precisão é obviamente uma boa escolha, mas lunetas também podem ser instaladas em todos os outros tipos de rifle, permitindo que você alterne entre visão normal e visão da luneta a qualquer momento.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content">
+                            <div class="tab-pane" id="bando">
+                                <div class="row">
+                                    <div class="col-12 md-5">
+                                        <h1 class="fw-bold mt-2 text-center text-white">A gangue Van der Linde</h1>
+                                        <p class="text-center text-white">Uma gangue de bandidos, renegados e desajustados unidos sob a liderança do carismático e idealista Dutch van der Linde. Eles escolheram viver uma vida fora da lei e agora temem que a lei esteja atrás</p>
+                                        <h1 class="fw-bold mt-2 text-center text-white">Foragidos para sempre</h1>
+                                        <img class="d-block w-100" src="./img/detalhes/gangue1.png" alt="">
+                                        <img class="d-block w-100" src="./img/detalhes/gangue2.png" alt="">
+                                        <img class="d-block w-100" src="./img/detalhes/gangue3.png" alt="">
+                                        <img class="d-block w-100" src="./img/detalhes/gangue4.png" alt="">
+                                        <img class="d-block w-100" src="./img/detalhes/gangue5.png" alt="">
+                                        <img class="d-block w-100" src="./img/detalhes/gangue6.png" alt="">
+                                        <img class="d-block w-100" src="./img/detalhes/gangue7.png" alt="">
+                                        <img class="d-block w-100" src="./img/detalhes/gangue8.png" alt="">
+                                        <img class="d-block w-100" src="./img/detalhes/gangue9.png" alt="">
+                                        <img class="d-block w-100" src="./img/detalhes/gangue10.png" alt="">
+                                        <img class="d-block w-100" src="./img/detalhes/gangue11.png" alt="">
+                                        <img class="d-block w-100" src="./img/detalhes/gangue12.png" alt="">
+                                        <img class="d-block w-100" src="./img/detalhes/gangue13.png" alt="">
+                                        <img class="d-block w-100" src="./img/detalhes/gangue14.png" alt="">
+                                        <img class="d-block w-100" src="./img/detalhes/gangue15.png" alt="">
+                                        <img class="d-block w-100" src="./img/detalhes/gangue16.png" alt="">
+                                        <img class="d-block w-100" src="./img/detalhes/gangue17.png" alt="">
+                                        <img class="d-block w-100" src="./img/detalhes/gangue18.png" alt="">
+                                        <img class="d-block w-100" src="./img/detalhes/gangue19.png" alt="">
+                                        <img class="d-block w-100" src="./img/detalhes/gangue20.png" alt="">
+                                        <img class="d-block w-100" src="./img/detalhes/gangue21.png" alt="">
+                                        <img class="d-block w-100" src="./img/detalhes/gangue22.png" alt="">
+                                        <img class="d-block w-100" src="./img/detalhes/gangue23.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <img src="./img/footer_img.png" class="footerIMG" alt="">
+        <section id="fale-conosco" class="pt-5 pb-5 bg-black">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center text-white">Compre <span class="text-colored">o seu</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (Opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea id="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="https://www.twitch.tv/rockstargames">
+                                        <i class="bi bi-twitch text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-3">
+                                    <a href="https://www.instagram.com/rockstargames/">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-3">
+                                    <a href="https://twitter.com/rockstargames">
+                                        <i class="bi bi-twitter text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-3 me-3">
+                                    <a href="https://www.youtube.com/rockstargames">
+                                        <i class="bi bi-youtube text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="https://www.facebook.com/rockstargames">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p class="text-white">
+                                New York - 
+                                London - 
+                                Paris - 
+                                Bogotá
+                                </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
